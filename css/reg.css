@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.ding{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	
+}
+.ding>img{
+	margin-top: 10px;
+}
+
+.nr{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/login_bg.jpg) center;
+	position: relative;
+}
+.nr_zhong{
+	width: 810px;
+	height: 380px;
+	margin-left:50%;
+	left: -405px;
+	margin-top: 55px;
+	position: absolute;
+	background:rgba(255,255,255,0.8);
+}
+.nr_zhong_left{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 50px;
+}
+.nr_zhong_left>ul{
+	list-style: none;
+	border-right:1px solid black ;
+}
+.nr_zhong_left>ul>li:nth-child(1){
+	text-align: center;
+	padding-top: 30px;
+}
+.nr_zhong_left>ul>li:nth-child(2){
+	text-align: center;
+	font-size: 25px;
+}
+.nr_zhong_left>ul>li{
+	text-align: center;
+}
+.nr_zhong_right{
+	width: 510px;
+	height: 300px;
+	float: right;
+	margin-top: 50px;
+}
+.nr_zhong_right>ul{
+	list-style: none;
+}
+.nr_zhong_right>ul>li{
+	line-height: 50px;
+	text-align: center;
+}
+.nr_zhong_right>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+.nr_zhong_right>ul>li>a:nth-child(1){
+	color: #FE6546;
+}
+.nr_zhong_right>ul>li:nth-child(5){
+	width: 125px;
+	height: 40px;
+	background: #FE6546;
+	margin-left: 320px;
+	line-height: 40px;
+}
+.nr_zhong_right>ul>li:nth-child(5)>a{
+	color: white;
+}
+
+
+.shoujikuang{
+	width: 365px;
+	height: 40px;
+}
+.yanzheng{
+	width: 365px;
+	height: 50px;
+}
+.nr_zhong_right>div{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+.yanzhengma2{
+	width: 176px;
+	height: 40px;
+	margin-left: 72px;
+	float: left;
+}
+.mima{
+	width: 365px;
+	height: 40px;
+	margin: 5px 72px;
+}
+.zhuce{
+	width: 365px;
+	height: 40px;
+	margin: auto;
+	background-color: #FE6546;
+}
+.zhuce>ul{
+	list-style: none;
+}
+.zhuce>ul>li{
+	text-align: center;
+	line-height: 40px;
+}
+.zhuce>ul>li>a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.yanzhengma1
+{	
+	width: 175px;
+	height: 40px;
+}
+.yanzhengma>img{
+	/*float: right;*/
+	margin-bottom: -10px;
+	padding-left: 60px;
+}
+
+.bottom_di{
+	width: 100%;
+	min-width: 1200px;
+	height: 95px;
+	margin: auto;
+	background-color: black;
+}
+.bottom_di>p{
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}

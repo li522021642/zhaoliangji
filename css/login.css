@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.ding{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	
+}
+.ding>img{
+	margin-top: 10px;
+}
+
+.nr{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/login_bg.jpg) center;
+	position: relative;
+}
+.nr_zhong{
+	width: 810px;
+	height: 380px;
+	margin-left:50%;
+	left: -405px;
+	margin-top: 55px;
+	position: absolute;
+	background:rgba(255,255,255,0.8);
+}
+.nr_zhong_left{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 50px;
+}
+.nr_zhong_left>ul{
+	list-style: none;
+	border-right:1px solid black ;
+}
+.nr_zhong_left>ul>li:nth-child(1){
+	text-align: center;
+	padding-top: 30px;
+}
+.nr_zhong_left>ul>li:nth-child(2){
+	text-align: center;
+	font-size: 25px;
+}
+.nr_zhong_left>ul>li{
+	text-align: center;
+}
+.nr_zhong_right{
+	width: 510px;
+	height: 300px;
+	float: right;
+	margin-top: 50px;
+}
+.nr_zhong_right>ul{
+	list-style: none;
+}
+.nr_zhong_right>ul>li{
+	line-height: 70px;
+	text-align: center;
+}
+.nr_zhong_right>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+.nr_zhong_right>ul>li>a:nth-child(2){
+	color: #FE6546;
+}
+.nr_zhong_right>ul>li>input{
+	width: 365px;
+	height: 40px;
+}
+.nr_zhong_right>ul>li:nth-child(4){
+	width: 365px;
+	height: 50px;
+	background: #FE6546;
+	margin: 10px 70px;
+}
+.nr_zhong_right>ul>li:nth-child(4)>a{
+	color: white;
+}
+.bottom_di{
+	width: 100%;
+	min-width: 1200px;
+	height: 95px;
+	margin: auto;
+	background-color: black;
+}
+.bottom_di>p{
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
